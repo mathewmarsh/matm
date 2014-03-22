@@ -3,7 +3,7 @@
 	email = mathew@marsh.im
 [core]
 	whitespace = fix,space-before-tab,tab-in-indent,trailing-space
-	excludesfile = ~/.cvsignore,~/.idea
+	excludesfile = ~/.cvsignore,~/.idea/
 [alias]
 	st = status -sb
 	ci = commit
