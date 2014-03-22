@@ -1,0 +1,29 @@
+[user]
+	name = Mat Marsh
+	email = mathew@marsh.im
+[core]
+	whitespace = fix,space-before-tab,tab-in-indent,trailing-space
+	excludesfile = ~/.cvsignore,~/.idea
+[alias]
+	st = status -sb
+	ci = commit
+	br = branch -vv
+	co = checkout
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	cp = cherry-pick
+[color]
+	ui = true
+[push]
+	default = current
+[git-up "bundler"]
+	check = false
+	autoinstall = true
+[git-up "fetch"]
+	all = true
+[git-up "rebase"]
+	arguments = --preserve-merges
+[rerere]
+	enabled = true
+
+[hub]
+  protocol = https
