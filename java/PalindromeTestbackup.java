@@ -1,6 +1,5 @@
 /* File:    PalindromeTest.java
  * Author:  Mathew Marsh
- * Course:  INFO-I211
  * Date:    January 30, 2012
  * 
  * Purpose: Test whether a user inputed string is a palindrome.

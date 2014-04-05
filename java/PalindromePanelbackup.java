@@ -1,6 +1,5 @@
 /* File:    PalindromePanel.java
  * Author:  Mathew Marsh
- * Course:  INFO-I211
  * Date:    January 30, 2012
  * 
  * Purpose: Creates the GUI for PalindromeTest.java
